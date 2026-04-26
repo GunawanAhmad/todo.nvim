@@ -263,7 +263,7 @@ local function create_win()
   })
 
   vim.wo[state.win].cursorline = true
-  vim.wo[state.win].wrap       = false
+  vim.wo[state.win].wrap       = true
 
   set_keymaps()
 
